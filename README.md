@@ -32,10 +32,10 @@ NTT-DATA-MICROSERVICES/
 
 2. Execute os serviços
    ```
-   ./gradlew :eureka-server:bootRun
-   ./gradlew :catalogo-produtos:bootRun
-   ./gradlew :simulador-pedidos:bootRun
-   ./gradlew :api-gateway:bootRun
+   ./gradlew :server:bootRun
+   ./gradlew :produtos:bootRun
+   ./gradlew :pedidos:bootRun
+   ./gradlew :gateway:bootRun
    ```
 3. Acesse
    ```
