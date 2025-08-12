@@ -31,23 +31,28 @@ NTT-DATA-MICROSERVICES/
 1. Clone o projeto
 
 2. Execute os serviços
+   ```
    ./gradlew :eureka-server:bootRun
    ./gradlew :catalogo-produtos:bootRun
    ./gradlew :simulador-pedidos:bootRun
    ./gradlew :api-gateway:bootRun
+   ```
 3. Acesse
+   ```
     -Eureka: http://localhost:8761
     -Gateway: http://localhost:8080
     -H2 Console: http://localhost:8100/h2-console
+   ```
 
 ---
 
 ## 🔗 Endpoints via Gateway
 
 
-Serviço	            | Endpoint
-Catálogo            | GET /produtos
-Simulador de Pedido	| POST /pedidos
+| Serviço	              | Endpoint      |
+|-----------------------|---------------|
+| Catálogo              | GET /produtos |
+| Simulador de Pedido	  | POST /pedidos |
 
 ---
 
